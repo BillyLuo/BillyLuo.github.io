@@ -360,7 +360,7 @@ h2.article-head {
 }
 .logo {
   background: url("images/flower.jpg") center no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 40px;
   height: 40px;

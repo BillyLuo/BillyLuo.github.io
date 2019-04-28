@@ -359,10 +359,12 @@ h2.article-head {
   }
 }
 .logo {
-  background: url("images/logo.png");
+  background: url("images/flower.jpg") center no-repeat;
   background-size: contain;
+  background-repeat: no-repeat;
   width: 40px;
   height: 40px;
+  border-radius: 50%;
   margin-right: 10px;
 }
 .home-link {
@@ -371,7 +373,7 @@ h2.article-head {
   float: left;
   font-weight: 500;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.2em;
   line-height: 40px;
 }
 .right-list {

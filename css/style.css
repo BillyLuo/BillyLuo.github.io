@@ -170,8 +170,8 @@ h2.article-head {
 #article-banner .arrow-down a {
   z-index: 4;
   display: block;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   -webkit-transform: rotate(315deg);
   transform: rotate(315deg);
   -webkit-animation-name: shine;
@@ -252,7 +252,7 @@ h2.article-head {
   color: #34495e;
 }
 .notice {
-  font-size: 12px;
+  font-size: 14px;
   display: block;
   margin-top: 10px;
   text-align: center;
@@ -453,7 +453,6 @@ h2.article-head {
   position: relative;
   list-style: none;
   text-align: center;
-  padding: 10px 0;
 }
 .menu-item:after {
   content: '';
@@ -466,6 +465,8 @@ h2.article-head {
   transform: scaleY(0.5);
 }
 .menu-link {
+  display: block;
+  padding: 12px 0;
   text-decoration: none;
   color: #7f8c8d;
 }

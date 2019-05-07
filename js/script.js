@@ -53,7 +53,9 @@
     }, 500)
   })
 
-  $('.reward-btn').on('click', function () {
+  $('.reward-btn').on('mouseenter', function () {
+    $('.money-code').fadeToggle()
+  }).on('mouseleave', function () {
     $('.money-code').fadeToggle()
   })
 
